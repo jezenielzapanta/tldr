@@ -9,3 +9,7 @@
 - Paste clipboard:
 
 `xclip -o > file.txt`
+
+- Copy file to system clipboard:
+
+`cat {{file.txt}} | xclip -sel clip`
